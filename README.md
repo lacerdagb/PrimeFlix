@@ -4,8 +4,8 @@
 
 
 <div align="center">
-  <h1>🍿 PrimeFlix</h1>
-  <p>Um projeto React simples para gerenciar sua lista de filmes favoritos!</p>
+  <h1>🍿 Top 20 Flix</h1>
+  <p>Um projeto React intuitivo para visualizar e gerenciar filmes que estão em cartaz</p>
 
   ---
 
