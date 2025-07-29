@@ -23,7 +23,7 @@ function Filme() {
             setLoading(false);
         })
         .catch(() => {
-            console.log("Filme não encontrado")
+            console.log("FILME NÃO ENCONTRADO!")
             navigate("/", { replace: true});
             return;
         })
@@ -44,14 +44,14 @@ function Filme() {
         const hasFilme = filmesSalvos.some( (filmesSalvo) => filmesSalvo.id === filme.id); // Para não repetir os filmes salvos
 
         if(hasFilme) {
-            alert("ESSE FILME JÁ EXISTE");
+            alert("ESSE FILME JÁ ESTÁ SALVO!");
             return;
         }
 
         //Salvar o filme no array, mostra no console application local storage
         filmesSalvos.push(filme)
         localStorage.setItem("@primeflix", JSON.stringify(filmesSalvos));
-        alert("Filme salvo com sucesso")
+        alert("FILME SALVO COM SUCESSO")
     }
 
 

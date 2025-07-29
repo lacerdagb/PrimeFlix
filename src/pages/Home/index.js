@@ -22,7 +22,7 @@ function Home() {
 
             // console.log(response.results.slice(0, 10)); //Feito isso, a api já esta sendo consumida, da para ver no console do serve o objeto criado, com o status de 200 
             // slice 0,10 para cortar de 20 filmes para 10
-            setFilmes(response.data.results.slice(0,10));
+            setFilmes(response.data.results.slice(0,20));
             setLoading(false); 
         }
 
@@ -44,10 +44,10 @@ if(loading) {
     
                 {/*Interessante ler a documentação do site, para puxar as imagens*/}
                 <div className="lista-filmes"> 
-                    {filmes.map((filme) => {
+                    {filmes.map((filme,index) => {
                         return(
                             <article key = {filme.id}>
-                                <strong>{filme.title}</strong>
+                                <strong> {index + 1}º {filme.title}</strong>
                                 <img src ={`https://image.tmdb.org/t/p/original/${filme.poster_path}`} alt = {filme.title} />
                                 <Link to={`/filme/${filme.id}`}>Acessar </Link>
                             </article>
