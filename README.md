@@ -1,6 +1,6 @@
 <img width="1349" height="948" alt="image" src="https://github.com/user-attachments/assets/7634b866-66c2-4c7f-8c03-e8cb73c6518e" />
-<img width="1370" height="723" alt="image" src="https://github.com/user-attachments/assets/e9d4c2fc-12d2-4da7-a160-313f2f9b68f2" />
-<img width="1244" height="418" alt="image" src="https://github.com/user-attachments/assets/6e73b69b-8ce6-439a-82fb-73c5642be8b1" />
+
+
 
 
 <div align="center">
@@ -14,7 +14,9 @@
   <ul>
     <li>🏠 Listagem dos filmes "Em Cartaz" do The Movie Database (TMDB).</li>
     <li>🔍 Detalhes de cada filme (sinopse, avaliação, etc.).</li>
+    <img width="1370" height="723" alt="image" src="https://github.com/user-attachments/assets/e9d4c2fc-12d2-4da7-a160-313f2f9b68f2" />
     <li>❤️ Adicionar e remover filmes da sua lista de favoritos.</li>
+    <img width="1244" height="418" alt="image" src="https://github.com/user-attachments/assets/6e73b69b-8ce6-439a-82fb-73c5642be8b1" />
     <li>❌ Página de erro 404 para rotas não encontradas.</li>
   </ul>
 
@@ -26,7 +28,6 @@
     <li>⚛️ ReactJS</li>
     <li>🌐 React Router DOM (para navegação)</li>
     <li>💾 Axios (para consumo da API TMDB)</li>
-    <li>🔔 React Toastify (para notificações)</li>
     <li>📦 Local Storage (para salvar favoritos)</li>
   </ul>
 
