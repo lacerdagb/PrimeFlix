@@ -1,3 +1,8 @@
+<img width="1349" height="948" alt="image" src="https://github.com/user-attachments/assets/7634b866-66c2-4c7f-8c03-e8cb73c6518e" />
+<img width="1370" height="723" alt="image" src="https://github.com/user-attachments/assets/e9d4c2fc-12d2-4da7-a160-313f2f9b68f2" />
+<img width="1244" height="418" alt="image" src="https://github.com/user-attachments/assets/6e73b69b-8ce6-439a-82fb-73c5642be8b1" />
+
+
 <div align="center">
   <h1>🍿 PrimeFlix</h1>
   <p>Um projeto React simples para gerenciar sua lista de filmes favoritos!</p>
