@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>🍿 PrimeFlix</h1>
+  <p>Um projeto React simples para gerenciar sua lista de filmes favoritos!</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ---
 
-## Available Scripts
+  <h3>✨ Funcionalidades</h3>
+  
+  <ul>
+    <li>🏠 Listagem dos filmes "Em Cartaz" do The Movie Database (TMDB).</li>
+    <li>🔍 Detalhes de cada filme (sinopse, avaliação, etc.).</li>
+    <li>❤️ Adicionar e remover filmes da sua lista de favoritos.</li>
+    <li>❌ Página de erro 404 para rotas não encontradas.</li>
+  </ul>
 
-In the project directory, you can run:
+  ---
 
-### `npm start`
+  <h3>🚀 Tecnologias Utilizadas</h3>
+  
+  <ul>
+    <li>⚛️ ReactJS</li>
+    <li>🌐 React Router DOM (para navegação)</li>
+    <li>💾 Axios (para consumo da API TMDB)</li>
+    <li>🔔 React Toastify (para notificações)</li>
+    <li>📦 Local Storage (para salvar favoritos)</li>
+  </ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <h3>🛠️ Como Rodar o Projeto</h3>
 
-### `npm test`
+  <ol>
+    <li>Clone o repositório:</li>
+      <pre><code>git clone https://github.com/lacerdagb/PrimeFlix.git</code></pre>
+    <li>Navegue até o diretório do projeto:</li>
+      <pre><code>cd PrimeFlix</code></pre>
+    <li>Instale as dependências:</li>
+      <pre><code>npm install</code></pre>
+      <p>ou</p>
+      <pre><code>yarn add</code></pre>
+    <li>Inicie a aplicação:</li>
+      <pre><code>npm start</code></pre>
+      <p>ou</p>
+      <pre><code>yarn start</code></pre>
+  </ol>
+  <p>A aplicação estará disponível em <code>http://localhost:3000</code>.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ---
 
-### `npm run build`
+  <h3>🔑 Chave da API (TMDB)</h3>
+  <p>Este projeto utiliza a API do <a href="https://www.themoviedb.org/" target="_blank">The Movie Database (TMDB)</a>. Certifique-se de ter uma chave de API válida e, se necessário, substitua a chave no arquivo <code>src/services/api.js</code>.</p>
+  <p>Sua chave atual é: <code>a034c2b08c819413c516ae548d8dacce</code></p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <h3>💡 Contribuição</h3>
+  <p>Sinta-se à vontade para contribuir! Abra uma <i>issue</i> ou envie um <i>pull request</i>.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ---
 
-### `npm run eject`
+  <h3>📄 Licença</h3>
+  <p>Este projeto está sob a licença MIT.</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <h3>📧 Contato</h3>
+  <p>Desenvolvido por Gabriel Lacerda - <a href="https://github.com/lacerdagb" target="_blank">GitHub</a></p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
